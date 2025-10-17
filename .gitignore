@@ -3,3 +3,66 @@ pclzip-*
 wp-config.php
 wp-content/backups-dup-lite/
 *.zip
+
+
+# Ignore WordPress core files (optional if you manage via Composer)
+wp-admin/
+wp-includes/
+
+# Ignore all uploaded media (images, videos, galleries)
+wp-content/uploads/
+
+# Ignore cache and temporary files
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+
+# Ignore common backup files
+*.bak
+*.backup
+*.tmp
+*.swp
+*.swo
+*.old
+*.orig
+
+# Ignore logs
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Composer dependencies (if used)
+vendor/
+
+# Ignore Node dependencies (if using build tools)
+node_modules/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore environment and config files
+.env
+.env.*
+*.local
+
+# Ignore WordPress config overrides (optional)
+wp-config.php
+wp-config-local.php
+
+# Ignore database dumps
+*.sql
+*.sql.gz
+*.db
+
+# Ignore custom backup directories
+backup/
+backups/
