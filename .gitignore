@@ -1,3 +1,5 @@
 *.tmp
 pclzip-*
 wp-config.php
+wp-content/backups-dup-lite/
+*.zip
